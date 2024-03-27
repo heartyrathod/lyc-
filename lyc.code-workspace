@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "/wp-content/themes/lyc-child/assets/css"
+			}
+		],
+		"liveSassCompile.settings.excludeList": [
+			"/**/node_modules/**",
+			"/.vscode/**",
+			"/sass/bootstrap/**",
+			// "/sass/fonts/**",
+			"/wp-admin/**",
+			"/wp-includes/**",
+			"/wp-content/plugins/**",
+			"/wp-content/upgrade/**",
+			"/wp-content/uploads/**",
+			"/wp-content/w3tc-config/**",
+			"/wp-content/maintenance/**",
+			"/wp-content/cache/**",
+			"/wp-content/logs/**",
+			"/wp-content/wflogs/**",
+			"/wp-content/themes/lyc/**",
+			"/wp-content/themes/lyc-child/sass/bootstrap/**"
+		]
+	}
+}
